@@ -1,0 +1,6 @@
+services:
+  sae-steering:
+    build: .
+    volumes:
+      - ./:/app
+      - /app/weights # Preserve the weights directory
